@@ -15,4 +15,5 @@ footer{
     color: var(--branco);
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
