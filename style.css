@@ -3,8 +3,16 @@
     --cor-texto: #FFF0F5;
     --cor-frente-cartao:#FA8072 ;
     --cor-verso-cartao:#FFB6C1;
+    --preto: #000000;
+    --branco: #ffffff;
 }
 
 body{
     background-color: var(--fundo);
+}
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    position: fixed;
+    bottom: 0;
 }
