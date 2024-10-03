@@ -1,17 +1,18 @@
 :root {
     --fundo: #FFF0F5;
     --cor-texto: #FFF0F5;
-    --cor-frente-cartao:#FA8072 ;
-    --cor-verso-cartao:#FFB6C1;
+    --cor-frente-cartao: #FA8072;
+    --cor-verso-cartao: #FFB6C1;
     --preto: #000000;
     --branco: #ffffff;
 }
 
-body{
+body {
     background-color: var(--fundo);
     margin: 0;
 }
-footer{
+
+footer {
     background-color: var(--preto);
     color: var(--branco);
     position: fixed;
@@ -20,7 +21,7 @@ footer{
     text-align: center;
 }
 
-#container{
+#container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -29,21 +30,21 @@ footer{
 }
 
 .cartao {
- margin: 1rem 1rem;
- height: 20rem;
- flex-grow: 1;
- flex-basis: calc(33% - 6rem);
+    margin: 1rem 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
 }
 
-.cartao-conteudo{
-background-color: var(--fundo);
-text-align: center;
-height: 100%;
-transform-style: preserve-3d;
-transition: transform 300ms ease-in-out;
+.cartao-conteudo {
+    background-color: var(--fundo);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
-.cartao-conteudo h3{
+.cartao-conteudo h3 {
     color: var(--cor-texto);
     border: 1prc solid var(--cor-texto);
     text-align: left;
@@ -51,22 +52,22 @@ transition: transform 300ms ease-in-out;
     position: absolute;
     margin: 0.5rem;
     border-radius: 0.6rem;
-    font-size: = 1.4vw;
+    font-size: =1.4vw;
 }
 
-.cartao-conteudo p{
+.cartao-conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
     font-size: 1.4vw;
 }
 
-.cartao-pergunta p{
+.cartao-pergunta p {
     color: var(--cor-texto);
     font-weight: 500;
 }
 
-.cartao-resosta p{
+.cartao-resosta p {
     color: var(--cor-verso-cartao);
     font-weight: 700;
 }
