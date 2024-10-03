@@ -73,6 +73,18 @@ footer {
     font-weight: 700;
 }
 
-.cartao:hover .cartao-conteudo{
+.cartao:hover .cartao-conteudo {
+    transform: rotateY(180deg);
+}
+
+.cartao-pergunta .cartao-resosta {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cartao-resosta {
     transform: rotateY(180deg);
 }
