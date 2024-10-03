@@ -77,7 +77,7 @@ footer {
     transform: rotateY(180deg);
 }
 
-.cartao-pergunta .cartao-resosta {
+.cartao-pergunta, .cartao-resosta {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
