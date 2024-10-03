@@ -84,7 +84,7 @@ criaCartao(
     'Rio Sena')
 
 criaCartao(
-    'categoria',
+    'geografia',
     '18)Qual é o menor país do mundo em termos de área?',
     'Cidade do Vaticano')
 
