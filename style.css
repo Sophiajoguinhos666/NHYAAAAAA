@@ -3,7 +3,7 @@
     --cor-texto: #000000;
     --cor-frente-cartao: #FA8072;
     --cor-verso-cartao: #98FB98;
-    --preto: #000000;
+    --roda-pe: #228B22;
     --branco: #ffffff;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 footer {
-    background-color: var(--preto);
+    background-color: var(--roda-pe);
     color: var(--branco);
     position: fixed;
     bottom: 0;
