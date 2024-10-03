@@ -1,6 +1,6 @@
 :root {
     --fundo: #FFF0F5;
-    --cor-texto: #FFF0F5;
+    --cor-texto: #000000;
     --cor-frente-cartao: #FA8072;
     --cor-verso-cartao: #FFB6C1;
     --preto: #000000;
@@ -30,7 +30,7 @@ footer {
 }
 
 .cartao {
-    margin: 1rem 1rem;
+    margin: 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -71,4 +71,8 @@ footer {
 .cartao-resosta p {
     color: var(--cor-texto);
     font-weight: 700;
+}
+
+.cartao:hover .cartao-conteudo{
+    transform: rotateY('180deg');
 }
