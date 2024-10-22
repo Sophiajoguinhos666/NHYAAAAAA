@@ -44,6 +44,7 @@ footer {
     border: 1px solid var(--cor-texto);
     box-shadow: 5px 5px 5px var(--cor-texto);
     padding: 20px;
+    cursor: pointer;
 }
 
 .cartao-resosta {
