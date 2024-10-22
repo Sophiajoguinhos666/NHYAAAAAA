@@ -19,10 +19,10 @@ function criaCartao(categoria, pergunta, resposta) {
 
 function mostrarRespota(card) {
     const respota = card.querySelector('.cartao-resposta')
-    if (respota.style.diplay == 'none') {
-        respota.style.diplay == 'block';
+    if (respota.style.diplay === 'none') {
+        respota.style.diplay = 'block';
     }
     else {
-        respota.style.diplay == 'none'
+        respota.style.diplay = 'none'
     }
 }
