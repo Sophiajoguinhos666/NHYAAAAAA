@@ -12,6 +12,18 @@ body {
     margin: 0;
 }
 
+header{
+    background-color: var(--roda-pe);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
 footer {
     background-color: var(--roda-pe);
     color: var(--branco);
