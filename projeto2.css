@@ -38,3 +38,9 @@ footer {
     padding: 2rem;
     gap: 3rem;
 }
+
+.cartao-conteudo{
+    background-color: var(--cor-frente-cartao);
+    border: 1px solid var(--cor-texto);
+    box-shadow: 2px 2px 2px var(--cor-texto);
+}
